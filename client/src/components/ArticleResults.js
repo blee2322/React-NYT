@@ -11,7 +11,7 @@ const ArticleResults = props =>
       <a href={props.url} target='_blank'>
         <button className='btn btn-default'>View Article</button>
       </a>
-      <button className='btn btn-primary' onCick={() => props.handSaveButton(props._id)}>Save Articles</button>
+      <button className='btn btn-primary' onCick={() => props.handleSaveButton(props._id)}>Save Articles</button>
       <p>Date Published: {props.date}</p>
     </div>
   </div>
