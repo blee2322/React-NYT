@@ -17,5 +17,5 @@ const ArticleResults = props =>
   </div>
 </div>
 
-export default Results;
+export default ArticleResults;
 

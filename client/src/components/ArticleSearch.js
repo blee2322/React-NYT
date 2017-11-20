@@ -37,7 +37,7 @@ const ArticleSearch = props =>
   <br/><br/>
 
   <div className='row'>
-    <div className='col-log-12'>
+    <div className='col-lg-12'>
       <div className='panel panel-primary'>
         <div className='panel-heading'>
           <h3 className='panel-title'>
@@ -51,6 +51,8 @@ const ArticleSearch = props =>
         </div>
       </div>
     </div>
-    <br/><br/>
   </div>
+  <br/><br/>\
+
+  export default ArticleSearch;
   
